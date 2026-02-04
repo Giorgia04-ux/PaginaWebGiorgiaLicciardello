@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memorie Dell'Edicola</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Geologica:wght,CRSV@100..900,0&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+
+
+  <style id="sections-styles">
+.site-header {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .header-left {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .header-right {
+        font-weight: 700;
+        font-size: 16px;
+        text-align: right;
+    }
+
+#hero-section {
+        margin-bottom: 100px;
+    }
+    .hero-card {
+        background-color: var(--color-black);
+        color: var(--color-white);
+        border-radius: 75px;
+        padding: 60px 40px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 388px;
+    }
+    .hero-card h1 {
+        font-size: 64px;
+        line-height: 1.1;
+    }
+    @media (max-width: 1024px) {
+        .hero-card h1 {
+            font-size: 48px;
+        }
+    }
+    @media (max-width: 768px) {
+        .hero-card {
+            border-radius: 40px;
+            padding: 40px 20px;
+            min-height: auto;
+        }
+        .hero-card h1 {
+            font-size: 32px;
+        }
+    }
+
+
+#crisi-section {
+        margin-bottom: 150px;
+        position: relative;
+    }
+    
+    .section-title-wrapper {
+        position: relative;
+        height: 198px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    
+    .title-pill {
+        position: absolute;
+        background-color: var(--color-black);
+        height: 100%;
+        border-radius: 156px;
+        z-index: -1;
+    }
+
+    .pill-crisi {
+        width: 100%;
+        left: -180px; 
+    }
+
+    .section-title {
+        z-index: 1;
+        padding-left: 0; 
+    }
+
+    .text-crisi {
+        color: var(--color-red);
+    }
+
+    .content-text {
+        max-width: 1040px;
+    }
+
+    @media (max-width: 1200px) {
+        .pill-crisi {
+            left: -50px;
+            width: 100%;
+        }
+        .section-title {
+            font-size: 60px;
+            padding-left: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .section-title-wrapper {
+            height: auto;
+            padding: 20px 0;
+            margin-bottom: 40px;
+        }
+        .title-pill {
+            width: 120%;
+            left: -20px;
+            border-radius: 0 100px 100px 0;
+        }
+        .section-title {
+            font-size: 36px;
+            padding: 20px;
+        }
+    }
+
+#dylan-section {
+        margin-bottom: 150px;
+    }
+
+    .pill-dylan {
+        width: 1124px;
+        left: -536px; 
+    }
+
+    .text-dylan {
+        color: var(--color-red-alt);
+    }
+
+
+
+    @media (max-width: 1200px) {
+        .pill-dylan {
+            left: -100px;
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .pill-dylan {
+            width: 120%;
+            left: -20px;
+        }
+    }
+
+
+#conclusion-section {
+        padding-bottom: 100px;
+    }
+
+    .conclusion-pill
+    {
+        width: 118%;
+        left: -200px;
+    }
+
+    .separator-bar {
+        background-color: var(--color-black);
+        height: 192px;
+        width: 1600px;
+        border-radius: 156px;
+        margin-left: -184px; 
+        margin-bottom: 120px;
+    }
+
+    @media (max-width: 1200px) {
+        .separator-bar {
+            width: 100vw;
+            margin-left: -50vw;
+            left: 50%;
+            position: relative;
+            border-radius: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .separator-bar {
+            height: 100px;
+            margin-bottom: 60px;
+        }
+    }
+  </style>
+</head>
+<body>
+<section id="header-section">
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="header-left">WEB<br>DESIGN</div>
+            <div class="header-right">GIORGIA LICCIARDELLO</div>
+        </div>
+    </header>
+</section>
+<section id="hero-section">
+    <div class="container">
+        <div class="hero-card gasoek">
+            <h1>MEMORIE DELL’EDICOLA:<br>STORIA DEI BONELLIDI</h1>
+        </div>
+    </div>
+</section>
+<section id="crisi-section">
+    <div class="container">
+        <div class="section-title-wrapper">
+            <div class="title-pill pill-crisi"></div>
+            <h2 class="section-title text-crisi gasoek">CRISI DELLE EDICOLE</h2>
+        </div>
+        
+        <div class="content-text">
+            <p>Nelle grandi città si è osservata la conversione dei punti vendita in chioschi di gadget e souvenir scadenti. Il risultato di quanto riportato ha suscitato scalpore tra gli appassionati riducendo il numero di lettori, si parla quindi di pubblico di nicchia.</p>
+            <p>Il fumetto popolare ormai fatica a trovare spazio nella società moderna. La crisi delle edicole in Italia è causata principalmente dalla crisi dell’editoria cartacea e dall’aumento dei costi.<br>Questo ha portato ad una riduzione del numero di edicole, che dal 2019 al 2023 se ne sono perse 2.700.</p>
+        </div>
+    </div>
+</section>
+<section id="dylan-section">
+    <div class="container">
+        <div class="section-title-wrapper">
+            <div class="title-pill pill-dylan"></div>
+            <h2 class="section-title text-dylan gasoek">DYLAN DOG</h2>
+        </div>
+
+        <div class="content-text">
+            <p>Nel 1986 nasce Dylan Dog, fumetto della Sergio Bonelli Editore, ideato da Tiziano Sclavi. Negli anni 90 arrivò a vendere mezzzo milione di copie, la popolarità di Dylan Dog investì ogni aspetto della cultura giovanile.</p>
+            <p>Di conseguenza nacquero delle imitazioni sia del personaggio che del formato editoriale, il cosiddetto formato bonelliano, di 16x21cm, tra queste ricordiamo Dick Drago ed Elton Cop.<br>Quest’ultimi presero il nome di ‘bonellidi’, fumetti che imitavano il formato classico e l’impostazione di Bonelli.</p>
+        </div>
+    </div>
+</section>
+<section id="conclusion-section">
+    <div class="container">
+        <div class ="section-title-wrapper">
+            <div class="title-pill conclusion-pill"></div>    
+            <h2 class="section-title text-red gasoek">IL FUMETTO CONTINUA A VIVERE</h2>
+        </div>
+        
+        <div class="content-text">
+            <p>Il fumetto ancora oggi continua a vivere tra molti alti e bassi.<br>Si può trovare anche al di fuori delle edicole, e sopravvive grazie a mercatini dell’usato, fiere specializzate, negozi online, ristampe e molto altro.</p>
+            <p>In tal modo il presente convive col passato e grazie anche ai lettori più accaniti e appassionati il fumetto continua ad essere vivo.</p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
